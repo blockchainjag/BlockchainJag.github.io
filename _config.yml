@@ -1,6 +1,7 @@
 # Site settings
 
-title: Carel1231
+
+title: Carel de Jager
 twitter_username: blockchainjag
 name: Carel de Jager
 
@@ -21,7 +22,7 @@ primarylinks:
 
 #Any buzzword skills you want to include
 skills:
- - Bitcoin
+ - Bitcoin Core
  - Ethereum
  - Hyperledger Fabric
  - Self-sovereign Identity
