@@ -1,7 +1,7 @@
 # Site settings
-title: Carel de Jager
-twitter_username: blockchainjag
-name: Carel de Jager
+title: Rob Hinds
+twitter_username: rob_hinds
+name: Rob Hinds
 
 # Build settings
 markdown: kramdown
@@ -10,98 +10,100 @@ markdown: kramdown
 #Links that will appear in the navbar
 primarylinks:
  - title: Blog
-   url: https://booksandbeans.home.blog
+   url: http://automateddeveloper.blogspot.com/
  - title: GitHub
-   url: https://github.com/blockchainjag
+   url: https://github.com/robhinds
  - title: StackOverflow
-   url: https://stackoverflow.com/users/11879770/carelkat
+   url: http://stackoverflow.com/users/258813/rhinds
  - title: LinkedIn
-   url: https://www.linkedin.com/in/careldejager/
+   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
 
 #Any buzzword skills you want to include
 skills:
- - Bitcoin Core
- - Ethereum
- - Hyperledger Fabric
- - Self-sovereign Identity
- - Solidity
- - JS
+ - Scala
+ - Akka-http
+ - Microservices
+ - Slick
+ - Product management
+ - API design
+ - Groovy
+ - Spring MVC/Boot/Social
+ - Gradle
+ - Java
+ - JPA
+ - SQL
+ - REST
  - Technical Architecture
  - Machine learning
- - Power stations
- - Demand side management
- - Chemical Engineering
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 #blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
 
 #Work experience is required
 roles:
- - title: Blockchain Consultant
+ - title: CTO
    start: 2017
    end: Ongoing
-   employer: The Blockchain Academy Pty Ltd
-   description: I work as a consultant for the Blockchain Academy, facilitating a wide range of blockchain related training courses and presentations. Through the academy, I also deliver customised, industry-specific training to audiences ranging from the inexperienced to executive level.    I am also a public speaker, where I often illustrate my ability to explain technical use cases for blockchain technology in a simple and practical way. 
- - title: Engineer
-   start: 2014
-   end: Ongoing
-   employer: Eskom
-   description: I work as a maintenance and operations engineer on a fossil fuel power plant of 3700MW capacity. I am the owner of the ash handling plant which produces 800kg of ash per second. The plant consists of 15km of conveying equipment, conditioners and stackers. My responsibility is to ensure that the plant is maintained and operated to specification.
- 
+   employer: Basement Crowd
+   description: Legaltech startup producing a range of innovative legal products. Products include <a href="https://www.juriosity.com" taget="_blank">Juriosity</a>, <a href="https://www.fromcounsel.com" taget="_blank">FromCounsel</a>, <a href="https://www.sparqa.com" taget="_blank">Sparqa</a>.
+ - title: Senior Engineer
+   start: 2016
+   end: 2017
+   employer: Emerald Street Ventures
+   description: Emerald Street Ventures was established as an incubator vehicle for the development of a number of software and legal-tech projects, and a rapidly growing, London-based start-up using innovative technologies to revolutionise and change the software and legal-tech landscape. Working with a range of cutting edge technologies and techniques including Scala, Cassandra, CoreOS, a variety of Machine Learning techniques.
+ - title: Senior Engineer
+   start: 2012
+   end: 2016
+   employer: Covestor
+   description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> Working as a senior engineer, I worked closely with the CTO and across the full-stack, I was involved in all aspects of the technology including the website and back-end services.
+
 #Education is required
 education:
- - level: Bachelor of Engineering (B. Eng)
-   date: 2013
-   subject: Chemical Engineering
-   school: North-West University
- - level: Masters of Engineering (M. Eng)
-   date: 2015
-   subject: Engineering Management and Development
-   school: North-West University
+ - level: Bachelor of Science (B.Sc.)
+   date: 2003
+   subject: Artificial Intelligence and Computer Science
+   school: University of Birmingham
+ - level: Bachelor of Science (B.Eng.)
+   date: 2003
+   subject: Artificial Intelligence and Computer Science
+   school: University of Birmingham
 
 #This section is optional (as is the image link below)
 coursera:
-   profileurl: https://www.coursera.org/user/1089dfe518c8ece7a88f164861aad808
+   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
    courses:
-    - title: Cryptography I
-      link: https://www.coursera.org/learn/crypto?
-      optionalimage: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/e8/7cc3d09d3f11e698dfff46d35f2da1/Stanford_Coursera_Logo.png?auto=format%2Ccompress&dpr=1&w=56px&h=56px&auto=format%2Ccompress&dpr=1&w=&h=
-      date: February 28, 2019
- 
+    - title: Functional Programming Principles in Scala
+      link: https://www.coursera.org/course/progfun
+      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
+      date: September 16, 2013
+
+
 #This section is optional - embeds slideshows from speakerdeck
 # to get the speakerdeck ID copy the embed code and look for the data-it attribute
-#speakerdeck:
-#   profileurl: https://speakerdeck.com/robhinds
-#   talks:
-#    - title: Product Management for Engineers
-#      speakerdeckId: 94f0070c4e434ec79fe9b4eb2cb574e0
-#      conference: API Conference, Berlin 2018
-#    - title: Agile Machine Learning - from Theory to Production
-#      speakerdeckId: ec84f2f56e9743afb0675b1eeeb6b6ce
-#      conference: W-JAX Conference, Munich 2017 (London 2017)
+speakerdeck:
+   profileurl: https://speakerdeck.com/robhinds
+   talks:
+    - title: Product Management for Engineers
+      speakerdeckId: 94f0070c4e434ec79fe9b4eb2cb574e0
+      conference: API Conference, Berlin 2018
+
 
 #List of interesting Github repo/projects to include - optional
-#github:
-# - robhinds/robhinds.github.io
-# - robhinds/ScaLambda
-# - robhinds/opinionated-akka-http
-# - robhinds/food2vec
-# - robhinds/microservices
-# - robhinds/spring-social-geeklist
-# - robhinds/spring-social-stackoverflow
-# - robhinds/genotype
-# - robhinds/footweets
-# - robhinds/ElasticSearchGradle
+github:
+ - robhinds/robhinds.github.io
+ - robhinds/ScaLambda
+ - robhinds/opinionated-akka-http
+
 
 #Stackoverflow flair is optional
-#stackoverflow:
-#   profileurl: http://stackoverflow.com/users/258813/rhinds
-#   flairimageurl: http://stackoverflow.com/users/flair/258813.png
+stackoverflow:
+   profileurl: http://stackoverflow.com/users/258813/rhinds
+   flairimageurl: http://stackoverflow.com/users/flair/258813.png
 
 intro: |
 #  I am an engineer with 15 years experience working in technology. I have primarily worked on the JVM, but have worked across a broad range of technologies thereon: Java, Groovy, Android, Coldfusion and most recently Scala. As well as spending a reasonable amount of time building applications for the web, which has given me an exposure to a range of javascript technologies over the years, through jQuery, extjs, knockout, backbone and most recently to React. <br/><br/>
 #  I enjoy building interesting products, with a good Product Management focus and a good emphasis on good engineering principles and clean code (having worked across differing languages on the JVM, I recognise that good code is contextual).<br/><br/>
-  I am a Blockchain educator, engineer and international speaker for the Blockchain Academy, as well as an Operations & Maintenance engineer on the Ash Handling plant at a fossil fuel Power Station. I hold a BEng (Chemical) and MEng (Management) degree.
+  I have worked in large scale consultancy roles across Europe as well as a mix of startup experience (including one that was acquired) and I am currently the Chief Technology Officer at a legal-tech startup called <a href="https://www.basementcrowd.com" target="_blank">Basement Crowd</a> where we are building innovative products to serve the legal industry.
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 #additionalinfo: |
@@ -109,10 +111,8 @@ intro: |
 #   <strong>Java</strong>: I am experienced in a variety of Java API’s and frameworks. I have worked with Spring 4, Spring Boot, JPA (Hibernate and EclipseLink) in addition to others. <br/><br/>
 #   <strong>Groovy</strong> I have used Groovy as a language in production for ~4 years and I am familiar with many of the languages features (such as writing <a target='_blank' href="https://dzone.com/articles/functional-programming-groovy">Functional Programming style groovy</a>) and quirks (such as <a target="_blank" href="https://dzone.com/articles/groovy-retrospective-an-addendum-memory-usage-perm">memory leak issues</a>). <br/><br/>
 #   <strong>Cloud platforms</strong>: I have primarily used AWS for running production apps on the cloud. I have experience setting up, configuring and running applications using a range of AWS offerings, including EC2, RDS, S3, Cogito, <a target="_blank" href="http://automateddeveloper.blogspot.com/2018/05/serverless-with-aws-lambda-scala.html">Lambda</a> and its more recent <a target="_blank" href="http://automateddeveloper.blogspot.com/2018/10/machine-learning-with-aws-scala.html">Machine Learning capabilities</a>.<br/><br/>
-#   <strong>Web Development</strong>: Through building web applications, I have also worked with various client side technology, having used jQuery, Bootstrap, LESS, SASS, Backbone/Underscore/Require. More recently I have written React applications (primarily using the Create React App framework, and extending them)<br/><br/>
+#  <strong>Web Development</strong>: Through building web applications, I have also worked with various client side technology, having used jQuery, Bootstrap, LESS, SASS, Backbone/Underscore/Require. More recently I have written React applications (primarily using the Create React App framework, and extending them)<br/><br/>
 #   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Maven, Gradle, Sonar, Jenkins, TeamCity, etc. I have experience with an array of testing tools and technologies.<br/><br/>
 #   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, a variety of social APIs (Twitter etc) and cloud platforms such as CloudFoundry/OpenShift/AppFog/AWS. <br/><br/>
 #   As part of Nerdability, I created, and am now primary contributor to, two Spring projects - <a target='_blank' href="https://github.com/robhinds/spring-social-geeklist">Spring-Social-Geeklist</a> and <a target='_blank' href="https://github.com/nerdability/spring-social-khan-academy">Spring-Social-Khan-Academy</a>, which provide core integration with those third-party APIs on top of the Spring Social framework. They are both listed as community projects: <a target='_blank' href="http://projects.spring.io/spring-social/">http://projects.spring.io/spring-social/</a>. <br/><br/>
 #   I write a blog covering technical and opinion articles that can be found here: <a target='_blank' href="http://automateddeveloper.blogspot.com/">automateddeveloper.blogspot.com</a> (I am also a <a target='_blank' href="https://dzone.com/users/899489/rhinds.html">DZone MVB</a>)
-
-#theme: jekyll-theme-minimal
