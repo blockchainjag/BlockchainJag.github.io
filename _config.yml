@@ -1,6 +1,4 @@
 # Site settings
-
-
 title: Carel de Jager
 twitter_username: blockchainjag
 name: Carel de Jager
@@ -39,27 +37,28 @@ skills:
 
 #Work experience is required
 roles:
- - title: Blockchain Consultant
-   start: 2017
-   end: Ongoing
-   employer: The Blockchain Academy Pty Ltd
-   description: I work as a consultant for the Blockchain Academy, facilitating a wide range of blockchain related training courses and presentations. Through the academy, I also deliver customised, industry-specific training to audiences ranging from the inexperienced to executive level.    I am also a public speaker, where I often illustrate my ability to explain technical use cases for blockchain technology in a simple and practical way. 
  - title: Engineer
    start: 2014
    end: Ongoing
    employer: Eskom
    description: I work as a maintenance and operations engineer on a fossil fuel power plant of 3700MW capacity. I am the owner of the ash handling plant which produces 800kg of ash per second. The plant consists of 15km of conveying equipment, conditioners and stackers. My responsibility is to ensure that the plant is maintained and operated to specification.
- 
+ - title: Blockchain Consultant
+   start: 2017
+   end: Ongoing
+   employer: The Blockchain Academy Pty Ltd
+   description: I work as a consultant for the Blockchain Academy, facilitating a wide range of blockchain related training courses and presentations. Through the academy, I also deliver customised, industry-specific training to audiences ranging from the inexperienced to executive level.    I am also a public speaker, where I often illustrate my ability to explain technical use cases for blockchain technology in a simple and practical way. 
+
 #Education is required
 education:
- - level: Bachelor of Engineering (B. Eng)
-   date: 2013
-   subject: Chemical Engineering
-   school: North-West University
  - level: Masters of Engineering (M. Eng)
    date: 2015
    subject: Engineering Management and Development
    school: North-West University
+ - level: Bachelor of Engineering (B. Eng)
+   date: 2013
+   subject: Chemical Engineering
+   school: North-West University
+
 
 #This section is optional (as is the image link below)
 coursera:
@@ -68,6 +67,7 @@ coursera:
     - title: Cryptography I
       link: https://www.coursera.org/learn/crypto?
       optionalimage: https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/e8/7cc3d09d3f11e698dfff46d35f2da1/Stanford_Coursera_Logo.png?auto=format%2Ccompress&dpr=1&w=56px&h=56px&auto=format%2Ccompress&dpr=1&w=&h=
+      description: An advanced course in applied cryptography
       date: February 28, 2019
  
 #This section is optional - embeds slideshows from speakerdeck
@@ -83,9 +83,9 @@ coursera:
 #      conference: W-JAX Conference, Munich 2017 (London 2017)
 
 #List of interesting Github repo/projects to include - optional
-#github:
-# - robhinds/robhinds.github.io
-# - robhinds/ScaLambda
+github:
+ - https://github.com/blockchainjag
+ - blockchainjag/SolidityPractice
 # - robhinds/opinionated-akka-http
 # - robhinds/food2vec
 # - robhinds/microservices
@@ -101,8 +101,8 @@ coursera:
 #   flairimageurl: http://stackoverflow.com/users/flair/258813.png
 
 intro: |
-  I am an engineer with 15 years experience working in technology. I have primarily worked on the JVM, but have worked across a broad range of technologies thereon: Java, Groovy, Android, Coldfusion and most recently Scala. As well as spending a reasonable amount of time building applications for the web, which has given me an exposure to a range of javascript technologies over the years, through jQuery, extjs, knockout, backbone and most recently to React. <br/><br/>
-  I enjoy building interesting products, with a good Product Management focus and a good emphasis on good engineering principles and clean code (having worked across differing languages on the JVM, I recognise that good code is contextual).<br/><br/>
+  I am a chemical engineer on weekdays and a blockchain educator on weekends. <br/><br/>
+  Line number 2. I enjoy building interesting products. <br/><br/>
   I am a Blockchain educator, engineer and international speaker for the Blockchain Academy, as well as an Operations & Maintenance engineer on the Ash Handling plant at a fossil fuel Power Station. I hold a BEng (Chemical) and MEng (Management) degree.
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
