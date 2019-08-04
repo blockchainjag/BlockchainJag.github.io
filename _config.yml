@@ -84,8 +84,8 @@ coursera:
 
 #List of interesting Github repo/projects to include - optional
 github:
- - BlockchainJag.github.io
- - /SolidityPractice
+ - https://github.com/blockchainjag/BlockchainJag.github.io
+ - https://github.com/blockchainjag/SolidityPractice
 # - robhinds/opinionated-akka-http
 # - robhinds/food2vec
 # - robhinds/microservices
