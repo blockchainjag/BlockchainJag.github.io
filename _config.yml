@@ -96,6 +96,8 @@ github:
 # - https://github.com/blockchainjag/BlockchainJag.github.io
  - SolidityPractice
  - Lottery.sol
+ - hello world
+ - BlockchainJag.github.io
 # - robhinds/opinionated-akka-http
 # - robhinds/food2vec
 # - robhinds/microservices
