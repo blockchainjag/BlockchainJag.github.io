@@ -84,12 +84,12 @@ bootcamp:
 speakerdeck:
    profileurl: https://speakerdeck.com/blockchainjag
    talks:
-    - title: Blockchain’s Potential Role in Payment Modernization
+    - title: Rent Seeking in a Decentralised Economy
       speakerdeckId: b6e2b513a7cb47f9b3abcd5f5a3071bb
+      conference: Finance Indaba October 2018, Johannesburg 2018
+    - title: Blockchain’s Potential Role in Payment Modernization
+      speakerdeckId: 42265ea2c4e347a1ac29753afa580e7d
       conference: Knowledge Hut Seminar July 2018, Johannesburg 2018
-#    - title: Agile Machine Learning - from Theory to Production
-#      speakerdeckId: ec84f2f56e9743afb0675b1eeeb6b6ce
-#      conference: W-JAX Conference, Munich 2017 (London 2017)
 
 #List of interesting Github repo/projects to include - optional
 github:
