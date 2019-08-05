@@ -81,12 +81,12 @@ bootcamp:
  
 #This section is optional - embeds slideshows from speakerdeck
 # to get the speakerdeck ID copy the embed code and look for the data-it attribute
-#speakerdeck:
-#   profileurl: https://speakerdeck.com/robhinds
-#   talks:
-#    - title: Product Management for Engineers
-#      speakerdeckId: 94f0070c4e434ec79fe9b4eb2cb574e0
-#      conference: API Conference, Berlin 2018
+speakerdeck:
+   profileurl: https://speakerdeck.com/blockchainjag
+   talks:
+    - title: Blockchain’s Potential Role in Payment Modernization
+      speakerdeckId: b6e2b513a7cb47f9b3abcd5f5a3071bb
+      conference: Knowledge Hut Seminar July 2018, Johannesburg 2018
 #    - title: Agile Machine Learning - from Theory to Production
 #      speakerdeckId: ec84f2f56e9743afb0675b1eeeb6b6ce
 #      conference: W-JAX Conference, Munich 2017 (London 2017)
