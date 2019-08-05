@@ -70,7 +70,7 @@ coursera:
       description: An advanced course in applied cryptography
       date: February 28, 2019
       
-Bootcamp:
+bootcamp:
    profileurl: https://www.godiive.com/wp-content/uploads/2018/08/Diive-logolarge-1024x522.png
    courses:
     - title: Blockchain Bootcamp
