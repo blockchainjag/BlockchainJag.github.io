@@ -93,12 +93,13 @@ bootcamp:
 
 #List of interesting Github repo/projects to include - optional
 github:
-# - https://github.com/blockchainjag/BlockchainJag.github.io
-# - SolidityPractice
-# - Lottery.sol
-# - hello world
-# - BlockchainJag.github.io
+ #- https://github.com/blockchainjag/BlockchainJag.github.io
+ - blockchainjag/SolidityPractice
+ - blockchainjag/Lottery.sol
+ - blockchainjag/hello-world
  - blockchainjag/BlockchainJag.github.io
+ - blockchainjag/ticketsales.sol
+ - blockchainjag/ERC20-Token-ICO
 # - robhinds/opinionated-akka-http
 # - robhinds/food2vec
 # - robhinds/microservices
