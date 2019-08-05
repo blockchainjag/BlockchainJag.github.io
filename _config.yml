@@ -33,7 +33,8 @@ skills:
  - Chemical Engineering
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
-#blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
+blogfeed: https://booksandbeans.home.blog/feed
+#https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
 
 #Work experience is required
 roles:
