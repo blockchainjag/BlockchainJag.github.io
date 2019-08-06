@@ -77,8 +77,11 @@ bootcamp:
    courses:
     - title: Blockchain Bootcamp
       link: https://www.godiive.com/bootcamps/blockchain-bootcamp/
-      optionalimage: https://www.godiive.com/wp-content/uploads/2018/08/Diive-logolarge-1024x522.png 
-      description: The Diive Bootcamp description1 <br/><br/> Description 2 <br/><br/> Description 3 <br/><br/>
+      optionalimage: img/Diive1.jpg
+      description: |
+      The Diive Bootcamp description1 <br/><br/> 
+      Description 2 <br/><br/> 
+      Description 3 <br/><br/>
       date: June, 2019
  
 #This section is optional - embeds slideshows from speakerdeck
