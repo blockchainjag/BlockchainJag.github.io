@@ -7,6 +7,14 @@
 			<div id="bootcampPanel">
 				{% for course in site.bootcamp.courses %}
 				<div class="row">
+					<div class="col-sm-4">
+						<a target='_blank' href="{{course.link}}">
+							{{course.title}}
+						</a><br/>
+						<i>{{course.date}}</i>
+					<br/>
+						{{course.description}}
+					</div>
 					{% if course.optionalimage1 %}
 						<div class="col-sm-8">
 							<img src="{{course.optionalimage1}}" width="50%" height="50%">
@@ -25,14 +33,7 @@
 						</div><br/>
 					{% endif %}
 					<br/><br/>
-					<div class="col-sm-4">
-						<a target='_blank' href="{{course.link}}">
-							{{course.title}}
-						</a><br/>
-						<i>{{course.date}}</i>
-					<br/>
-						{{course.description}}
-					</div>
+
 					</div><br/>
 				{% endfor %}
 			</div>
