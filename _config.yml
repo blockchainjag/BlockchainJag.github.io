@@ -72,7 +72,8 @@ coursera:
       date: February 28, 2019
       
 bootcamp:
-   profileurl: https://www.godiive.com/wp-content/uploads/2018/08/Diive-logolarge-1024x522.png
+#   profileurl: https://www.godiive.com/wp-content/uploads/2018/08/Diive-logolarge-1024x522.png
+   profileurl: img/Diive1.jpg
    courses:
     - title: Blockchain Bootcamp
       link: https://www.godiive.com/bootcamps/blockchain-bootcamp/
