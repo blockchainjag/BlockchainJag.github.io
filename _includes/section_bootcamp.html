@@ -8,33 +8,29 @@
 				{% for course in site.bootcamp.courses %}
 				<div class="row">
 					
-							<div class="col-sm-4">
-							<img src="{{course.optionalimage1}}" width="50%" height="50%">
-							<div class="col-sm-4">
-							<a target='_blank' href="{{course.link}}">
-							{{course.title}}
-						</a><br/>
-							<i>{{course.date}}</i>
-					<br/>
-							{{course.description}}
-					</div>
-						</div><br/>
-					<br><br/>
+					<div class="col-sm-4">
+						<img src="{{course.optionalimage1}}" width="50%" height="50%"> <br><br/>
 					{% if course.optionalimage2 %}
-						<div class="col-sm-4">
-							<img src="{{course.optionalimage2}}" width="50%" height="50%"> 
-						</div><br/>
+						<img src="{{course.optionalimage2}}" width="50%" height="50%"> <br><br/>
 					{% endif %}
-					<br><br/>
 					{% if course.optionalimage3 %}
-						<div class="col-sm-4">
-							<img src="{{course.optionalimage3}}" width="50%" height="50%">
-						</div><br/>
+						<img src="{{course.optionalimage3}}" width="50%" height="50%"> <br><br/>
 					{% endif %}
-					<br><br/>
-
 					</div>
-					</div><br/>
+									
+					<div class="col-sm-4">
+						<a target='_blank' href="{{course.link}}">
+						{{course.title}}
+					</a><br/>
+						<i>{{course.date}}</i>
+					<br/>
+						{{course.description}}
+					</div>
+						</div><br/>
+					<br><br/>
+					
+					</div>
+				  </div><br/>
 				{% endfor %}
 			</div>
 		</div>
